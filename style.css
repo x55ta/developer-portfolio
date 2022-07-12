@@ -14,6 +14,11 @@ h1{
 #hire-me{
     margin: 0px;
     padding-left: 0%;
+    color: orangered;
+    margin: 10px;
+    border: 50%
+    padding: 5%;
+    radius: 50px;
 }
 section{
     display: flex;
@@ -23,4 +28,13 @@ section{
 }
 .half-width img{
     width: 40%;
+}
+.link-button{
+    text-decoration:none;
+    background-image: linear-gradient(orange, tomato);
+    background-color:orange;
+    color: rgba(224, 63, 63, 0.378);
+    font: bold;
+    padding: 10px 40px ;
+    border-radius: 5px;
 }
