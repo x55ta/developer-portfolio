@@ -1,4 +1,4 @@
-h1{
+.banner-line{
     color:blue;
 }
 
@@ -20,12 +20,13 @@ h1{
     padding: 5%;
     radius: 50px;
 }
-section{
+.section-flexible{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
+    
 }
 .half-width img{
     width: 40%;
@@ -44,4 +45,30 @@ section{
     background-position: right;
 
 
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    border-left: 7px solid orangered;
+}
+#full{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
